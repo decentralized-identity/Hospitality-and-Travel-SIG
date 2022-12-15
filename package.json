@@ -1,12 +1,12 @@
 {
-  "name": "sig-template",
-  "description": "DIF SIG Profile Template",
+  "name": "sig-hospitality-and-tourism",
+  "description": "DIF SIG Hospitality and Tourism",
   "version": "0.0.1",
-  "homepage": "https://paul-yellowpink.github.io/SIG-template",
+  "homepage": "https://identity.foundation",
   "license": "Apache 2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/paul-yellowpink/SIG-template"
+    "url": "git://github.com/decentralized-identity/SIG-Hospitality-and-Tourism"
   },
   "dependencies": {
     "markdown-it": "^9.1.0",
