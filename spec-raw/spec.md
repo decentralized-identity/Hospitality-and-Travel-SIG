@@ -66,6 +66,8 @@ The profile request structure is an essential aspect of the dynamic traveler pro
 
 Example Profile Request in JSON-LD
 
+```json
+
 scssCopy code{
   "@context": "https://www.w3.org/ns/did/v1",
   "id": "did:example:123456789",
@@ -98,13 +100,14 @@ scssCopy code{
     }
   \]
 }
+```
 
 2.3. **Traveler** **Profile Presentation**
 
 After the traveler's digital wallet or digital agent generates the profile based on the travel provider's request and the traveler's consent, the profile presentation is created. This presentation includes the requested information, organized by categories and claims.
 
 Example Profile Presentation in JSON-LD:
-
+```json
 scssCopy code{
   "@context": "https://www.w3.org/ns/did/v1",
   "id": "did:example:123456789",
@@ -133,7 +136,7 @@ scssCopy code{
     "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..l9d0YHjcFAH2H4dB9xlWFZQLUpixVCWzn8lXY7ZNFYUxujfQkzLwGhMfKYM0pGtE8bGvk5XOMJX14qkTzTWRlCw"
   }
 }
-
+```
 In the example above, the profile presentation includes the verifiable credential containing the requested demographic information (name and birthdate) and a proof, which verifies the authenticity of the presented data.
 
 2.6. **Profile Element Categories**
