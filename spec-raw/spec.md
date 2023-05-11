@@ -1,8 +1,8 @@
 **Dynamic Traveler Profile Generation Specification**
 
-**Specification Status:** Draft
+**Specification Status:** Published
 
-**Latest Draft:** [identity.foundation/traveler-profile/spec](https://passivebolt.atlassian.net/wiki/plugins/viewsource/viewpagesrc.action?pageId=1509359617#)
+**Latest Draft:** [identity.foundation/traveler-profile/spec](https://github.com/decentralized-identity/SIG-Hospitality-and-Tourism)
 
 **Latest Version:** 0.1
 
@@ -23,7 +23,7 @@
 
 **Feedback**:
 
-[GitHub H&T-SIG/traveler-profile](https://passivebolt.atlassian.net/wiki/plugins/viewsource/viewpagesrc.action?pageId=1509359617#) ([pull requests](https://passivebolt.atlassian.net/wiki/plugins/viewsource/viewpagesrc.action?pageId=1509359617#), [new issue](https://passivebolt.atlassian.net/wiki/plugins/viewsource/viewpagesrc.action?pageId=1509359617#), [open issues](https://passivebolt.atlassian.net/wiki/plugins/viewsource/viewpagesrc.action?pageId=1509359617#))
+[GitHub H&T-SIG/traveler-profile](https://github.com/decentralized-identity/SIG-Hospitality-and-Tourism) ([pull requests](https://github.com/decentralized-identity/SIG-Hospitality-and-Tourism), [new issue](https://github.com/decentralized-identity/SIG-Hospitality-and-Tourism), [open issues](https://github.com/decentralized-identity/SIG-Hospitality-and-Tourism))
 
 1.  **Introduction**
 
@@ -185,7 +185,7 @@ This strategic use of tags as shorthands not only enhances the overall travel ex
 *   **Transportation**: Relevant for airlines, trains, buses, taxis, and other mobility sectors.
 *   Examples: seat preference, frequent flyer program membership, luggage requirements
 *   **Dining**: Relevant for restaurants, food service providers in hotels, trains, and airplanes.
-*   Examples: dietary restrictions, allergies, meal preferences, favorite cuisines
+*   Examples: dietary restrictions, allergies, meal preferences, favorite cuisines, medical / religious reasons
 *   **Activities**: Relevant for tour operators, event providers, and other activity organizers.
 *   Examples: interests, preferred activity types, accessibility requirements
 *   **Communication**: Relevant for contact information and communication preferences.
