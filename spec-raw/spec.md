@@ -180,18 +180,12 @@ As the travel industry encompasses a wide range of service providers and interme
 
 This strategic use of tags as shorthands not only enhances the overall travel experience but also streamlines the traveler's interaction with different travel services. With the help of Travel Context Tags, both travelers and travel providers can effortlessly navigate the dynamic traveler profile system, ensuring that the provided data is always aligned with the context of each unique travel situation.
 
-*   **Accommodations**: Relevant for hotels, hostels, and other lodging providers.
-*   Examples: room type preference, smoking preference, loyalty program membership
-*   **Transportation**: Relevant for airlines, trains, buses, taxis, and other mobility sectors.
-*   Examples: seat preference, frequent flyer program membership, luggage requirements
-*   **Dining**: Relevant for restaurants, food service providers in hotels, trains, and airplanes.
-*   Examples: dietary restrictions, allergies, meal preferences, favorite cuisines, medical / religious reasons
-*   **Activities**: Relevant for tour operators, event providers, and other activity organizers.
-*   Examples: interests, preferred activity types, accessibility requirements
-*   **Communication**: Relevant for contact information and communication preferences.
-*   Examples: email address, phone number, preferred contact method, language preference
-*   **Payment**: Relevant for payment information and financial transactions.
-*   Examples: credit card details, billing address, preferred currency, loyalty rewards
+*   **Accommodations**: Relevant for hotels, hostels, and other lodging providers. e.g. room type preference, smoking preference, loyalty program membership
+*   **Transportation**: Relevant for airlines, trains, buses, taxis, and other mobility sectors. e.g. seat preferences, frequent flyer program membership, luggage requirements
+*   **Dining**: Relevant for restaurants, food service providers in hotels, trains, and airplanes. e.g. dietary restrictions, allergies, meal preferences, favorite cuisines, medical / religious reasons
+*   **Activities**: Relevant for tour operators, event providers, and other activity organizers. e.g. interests, preferred activity types, accessibility requirements
+*   **Communication**: Relevant for contact information and communication preferences. e.g. email address, phone number, preferred contact method, language preference
+*   **Payment**: Relevant for payment information and financial transactions. e.g. credit card details, billing address, preferred currency, loyalty rewards
 
 4. **Future Scope**
 
