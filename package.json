@@ -1,12 +1,12 @@
 {
-  "name": "sig-hospitality-and-tourism",
-  "description": "DIF SIG Hospitality and Tourism",
+  "name": "sig-hospitality-and-travel",
+  "description": "DIF SIG Hospitality and Travel",
   "version": "0.0.1",
   "homepage": "https://identity.foundation",
   "license": "Apache 2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/decentralized-identity/SIG-Hospitality-and-Tourism"
+    "url": "git://github.com/decentralized-identity/Hospitality-and-Travel-SIG"
   },
   "dependencies": {
     "markdown-it": "^9.1.0",
