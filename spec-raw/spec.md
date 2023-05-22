@@ -43,13 +43,13 @@ This specification covers the process of generating traveler profiles, including
 
 The process consists of four main steps: Traveler Profile Request, User Consent, Traveler Profile Presentation, and Verification. In the first step, the travel provider requests the traveler's profile by specifying the required information. Next, the traveler, as the holder of the information, provides consent and sets any terms of use for their profile data. The traveler's digital wallet or digital agent then generates the profile, which is presented to the travel provider in the third step. Finally, the travel provider verifies the authenticity of the presented data by resolving issuer DIDs and checking signatures.
 
-![](assets/image_process.png)2.2. **Traveler** **Profile Request**
+![](./assets/image_process.png)2.2. **Traveler** **Profile Request**
 
 The Traveler Profile Request is the initial step in the dynamic traveler profile generation system. It is designed to ensure that travel providers can request the necessary traveler information while maintaining high level of consumer confidentiality. By utilizing Decentralized Identifiers (DIDs), the system enables travelers to remain anonymous during the request process, effectively addressing any concerns about privacy and personal data protection.
 
 The Traveler Profile Request structure consists of several components, including the traveler's DID, the issuer of the verifiable credential, the category of the requested information, and individual claims within each category. Each claim is further broken down into its value, format, standard, and language. The structure also indicates whether a specific claim is required and the purpose for requesting that claim. By following this standardized structure, travel providers can ensure consistency and interoperability across the industry when requesting traveler profile information.
 
-![](assets/image_request.png)
+![](./assets/image_request.png)
 
 The profile request structure is an essential aspect of the dynamic traveler profile generation process. It is crucial for travel providers to have a clear understanding of the function and purpose of each component within the structure. By doing so, they can effectively craft profile requests tailored to their specific needs while maintaining the standardization required for seamless interoperability across the travel industry. This part of the specification serves as a guide, ensuring that all parties involved have a clear understanding of the various components and their interrelationships within the request structure.
 
@@ -170,7 +170,7 @@ The generated traveler profile will have a standardized structure composed of th
 *   **Verifiable Credentials (third-party issued)**: Claims issued and verified by a trusted third party.
 *   **Self-Issued Verifiable Credentials (preferences and requirements)**: Claims issued by the traveler themselves, typically containing personal preferences.
 
-![](assets/image_structure.png)Each verifiable credential block type will contain profile elements (e.g., name, phone number, passport) grouped by profile element categories (e.g., Personal Identification, Payment Information). Standardized tagging methods will be used to provide travel context for each profile element category.
+![](./assets/image_structure.png)Each verifiable credential block type will contain profile elements (e.g., name, phone number, passport) grouped by profile element categories (e.g., Personal Identification, Payment Information). Standardized tagging methods will be used to provide travel context for each profile element category.
 
 3.2. **Travel Context Tags**
 
