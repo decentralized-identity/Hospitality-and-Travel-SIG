@@ -1,12 +1,12 @@
 **Dynamic Traveler Profile Generation Specification**
 
-**Specification Status:** Published
+**Specification Status:** Published (first published June 2023)
 
 **Latest Draft:** [identity.foundation/traveler-profile/spec](https://github.com/decentralized-identity/Hospitality-and-Travel-SIG/blob/main/spec-raw/spec.md)
 
-**Latest Version:** 0.1
+**Latest Version:** 1.0
 
-**Previous Version:** 0.0
+**Previous Version:** 0.1
 
 **Authors:**
 
@@ -25,7 +25,27 @@
 
 [GitHub H&T-SIG/traveler-profile](https://github.com/decentralized-identity/SIG-Hospitality-and-Tourism) ([pull requests](https://github.com/decentralized-identity/SIG-Hospitality-and-Tourism), [new issue](https://github.com/decentralized-identity/SIG-Hospitality-and-Tourism), [open issues](https://github.com/decentralized-identity/SIG-Hospitality-and-Tourism))
 
-1.  **Introduction**
+**Overview & Vision**
+
+1. **Decentralized Travel Profile**
+
+* Travelers have sole control over access to their profile data, which may include identity and preferences. They can create and then self-host or store a profile with their preferred provider (such as established travel providers, tech companies, or other intermediaries)
+* Travelers themselves control the encryption of this data, adding an essential layer of security and privacy.
+This single profile enables travelers to assert their identity across digital platforms and interact with travel providers, unlocking personalized services tailored specifically to their preferences.
+* The data contained within this profile can be cryptographically verified, facilitating a robust trust verification process across various service providers. Thus, it assures both security and seamless interaction between travelers and their chosen travel providers.
+* This travel profile is designed to be reusable, persistent, dynamic and responsive. If the traveler updates any information or preferences, all permissioned travel providers can immediately access the update. Thus, travelers are spared the inconvenience of proactively and repeatedly updating their information across different travel providers and journeys.
+* Decentralized Identity tooling allows for the limited and specific disclosure of information, including derived proof validations such as a YES / NO to a question of age qualification.
+
+2. **Composable, modular profile**
+* Profiles are assembled from pre-existing components arranged – or “composed” –  from specific use cases.
+* The adaptability of the profile allows for widespread use across all areas of travel with each specific implementation using just the components required to address the targeted use-case(s) but remaining interoperable between dissimilar systems.
+
+3. **Open-Source collaborative development**
+* Free to implement and free to use, the intended development method allows for large-scale, collaborative development using open-source tooling suggesting potential for industry-wide adoption at scale.
+
+---
+
+1. **Specification introduction**
 
 1.1. **Purpose**
 
